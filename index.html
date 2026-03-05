@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"> 
-    <head>
-        <meta charset="UTF-8">
-            <title>Interpret Dorian Gray | Literary Analysis</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="description" content="Interpret Dorian Gray explores themes, symbolism, and analysis of Oscar Wilde's The Picture of Dorian Gray.">
-                    <meta name="keywords" content="Dorian Gray, Oscar Wilde, literary analysis, symbolism, themes, interpretation">
-                        <meta name="author" content="InterpretDorianGray.com">
-                            
-                            <style>
+<head>
+    <meta charset="UTF-8">
+    <title>Interpret Dorian Gray | Literary Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interpret Dorian Gray explores themes, symbolism, and analysis of Oscar Wilde's The Picture of Dorian Gray.">
+    <meta name="keywords" content="Dorian Gray, Oscar Wilde, literary analysis, symbolism, themes, interpretation">
+    <meta name="author" content="InterpretDorianGray.com">
+    
+    <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #f4f4f4;
@@ -16,12 +16,13 @@
             margin: 0;
             padding: 0;
         }
-.figurative-highlight {
-    background-color: #fff3a0;
-    border-bottom: 2px solid #5a2d82;
-    padding: 2px;
-}
-    
+
+        .figurative-highlight {
+            background-color: #fff3a0;
+            border-bottom: 2px solid #5a2d82;
+            padding: 2px;
+        }
+
         header {
             background-color: #5a2d82;
             color: white;
@@ -103,84 +104,65 @@
             }
         }
     </style>
-    </head>
+</head>
+
+<body>
+    <header>
+        <h1>Interpret Dorian Gray</h1>
+        <p>Exploring Beauty, Morality, and Decadence</p>
+    </header>
     
-    <body>
-        
-        <header>
-            <h1>Interpret Dorian Gray</h1>
-            <p>Exploring Beauty, Morality, and Decadence</p>
-        </header>
-        
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#themes">Themes</a>
-            <a href="#analysis">Analysis</a>
-            <a href="project.html">Project</a>
-            <a href="#about">About</a>
-        </nav>
-        
-        <div class="container">
-            <div id="novel-text"></div>
-            <h2>About the Novel</h2>
-            <p>
-                <span class="highlight">The Picture of Dorian Gray</span> by Oscar Wilde
-                explores the consequences of vanity, aestheticism, and moral corruption.
-            </p>
-            
-            <img src="dorian_gray.jpg" alt="Portrait of Dorian Gray">
-                
-                <div class="quote">
-                    "The only way to get rid of temptation is to yield to it."
-                <h2 id="themes">Main Themes</h2>
-                <ul>
-                    <li>Beauty and Youth</li>
-                    <li>The Corruption of the Soul</li>
-                    <li>The Influence of Lord Henry</li>
-                    <li>Art vs. Reality</li>
-                    <li>Morality and Consequence</li>
-                </ul>
-                
-                <h2 id="analysis">Interpretation & Analysis</h2>
-                <p>
-                    Dorian's portrait represents the hidden consequences of unchecked desire.
-                    Wilde critiques Victorian moral hypocrisy while exploring aesthetic philosophy.
-                </p>
-                
-                <h2 id="about">About This Website</h2>
-                <p>
-                    InterpretDorianGray.com is dedicated to thoughtful literary interpretation,
-                    close reading, and thematic analysis of Wilde's novel.
-                </p>
-                
-        </div>
-        
-        <footer>
-            &copy; 2026 InterpretDorianGray.com | All Rights Reserved
-        </footer>
-        <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const container = document.getElementById("novel-text");
-
-    const patterns = [
-        /[^.!?]*\b(?:was|were|is|are|seemed|looked|stood|moved|shone|burned|glowed|whispered|cried|laughed)\b[^.!?]*?\blike\s+(?:a|an|the)\s+\w+[^.!?]*[.!?]/gi,
-        /\bas\s+\w+\s+as\s+\w+\b/gi,
-        /\bas\s+if\s+[^.!?]+/gi
-    ];
-
-    let html = container.innerHTML;
-
-    patterns.forEach(regex => {
-        html = html.replace(regex, match =>
-            `<span class="figurative-highlight">${match}</span>`
-        );
-    });
-
-    container.innerHTML = html;
-});
-</script>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#themes">Themes</a>
+        <a href="#analysis">Analysis</a>
+        <a href="project.html">Project</a>
+        <a href="#about">About</a>
+    </nav>
+    
+    <div class="container">
+        <!-- This div will be populated with XML content by parser.js -->
         <div id="novel-text"></div>
 
-<script src="js/parser.js"></script>
-    </body>
+        <h2>About the Novel</h2>
+        <p>
+            <span class="highlight">The Picture of Dorian Gray</span> by Oscar Wilde
+            explores the consequences of vanity, aestheticism, and moral corruption.
+        </p>
+        
+        <img src="dorian_gray.jpg" alt="Portrait of Dorian Gray">
+
+        <div class="quote">
+            "The only way to get rid of temptation is to yield to it."
+        </div>
+
+        <h2 id="themes">Main Themes</h2>
+        <ul>
+            <li>Beauty and Youth</li>
+            <li>The Corruption of the Soul</li>
+            <li>The Influence of Lord Henry</li>
+            <li>Art vs. Reality</li>
+            <li>Morality and Consequence</li>
+        </ul>
+
+        <h2 id="analysis">Interpretation & Analysis</h2>
+        <p>
+            Dorian's portrait represents the hidden consequences of unchecked desire.
+            Wilde critiques Victorian moral hypocrisy while exploring aesthetic philosophy.
+        </p>
+
+        <h2 id="about">About This Website</h2>
+        <p>
+            InterpretDorianGray.com is dedicated to thoughtful literary interpretation,
+            close reading, and thematic analysis of Wilde's novel.
+        </p>
+    </div>
+    
+    <footer>
+        &copy; 2026 InterpretDorianGray.com | All Rights Reserved
+    </footer>
+
+    <!-- Load parser.js to fetch XML and highlight figurative language -->
+    <script src="js/parser.js"></script>
+</body>
 </html>
