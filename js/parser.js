@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    fetch("js/dorian_gray.xml") // fetch relative to index.html
+    fetch("js/dorian_gray.xml") 
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Failed to fetch dorian_gray.xml: ${response.status} ${response.statusText}`);
